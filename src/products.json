@@ -1,0 +1,37 @@
+[{
+    "id":89,
+    "name":"Pizza",
+    "amt":"299",
+    "shop":"Pizza Hut",
+    "ftype":"Pizza",
+    "pic":"https://www.app.tutorjoes.in/img/food/89.jpg",
+    "latest":"No"
+},
+{
+    "id":124,
+    "name":"Paper Roast Dosa",
+    "amt":"65",
+    "shop":"Sri Saivihar",
+    "ftype":"Veg",
+    "pic":"https://www.app.tutorjoes.in/img/food/124.jpg",
+    "latest":"No"
+},
+{
+    "id":26,
+    "name":"White Pasta",
+    "amt":"185",
+    "shop":"LAKSHMI FOOD",
+    "ftype":"Veg",
+    "pic":"https://www.app.tutorjoes.in/img/food/26.jpg",
+    "latest":"Yes"
+},
+{
+    "id":9,
+    "name":"Chicken 65",
+    "amt":"220",
+    "shop":"Salem RR Briyani",
+    "ftype":"Non-Veg",
+    "pic":"https://www.app.tutorjoes.in/img/food/9.jpg",
+    "latest":"No"
+}
+]
