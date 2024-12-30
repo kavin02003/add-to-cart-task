@@ -1,0 +1,32 @@
+.formdata-form{
+    text-align: center;
+}
+.formdata-inputbox1{
+    padding:5px;
+    width:20%;
+    margin-top:10px;
+}
+.formdata-productnames{
+    font-size:18px;
+    padding-right:15px;
+}
+.formdata-button{
+    padding:10px 40px;
+    font-size: 17px;
+    background-color:rgb(230, 95, 11);
+    border-radius:5px;
+    border-style:none;
+}
+.formdata-button:hover{
+    background-color:rgb(220,121,59);
+    cursor: pointer;
+}
+.formdata-list{
+    list-style-type:none;
+    display: flex;
+    border:1px solid black;
+    margin-top:10px;
+    padding:10px;
+    font-weight: 500;
+    gap:20px;
+}

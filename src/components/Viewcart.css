@@ -6,9 +6,9 @@
 
 .cart-product{
     display: flex;
-    gap:5px;
+    gap:20px;
     align-items:center;
-    margin-bottom:10px;
+    margin-bottom:15px;
     border:1px solid #ccc;
 }
 
@@ -27,17 +27,25 @@
     font-weight: 600;
 }
 
-.btnRemove{
-    padding:5px 10px;
-    color:#fff;
-    border:none;
-    border-radius:3px;
+.cart-product-details p{
+     padding-top:10px;
 }
 
 .btnRemove{
+    padding:10px 15px;
+    color:#fff;
+    border:none;
+    border-radius:3px;
     background-color:#cf3d3d !important;
 }
 
 .btnRemove:hover{
     background-color:#952e2e !important;
+    cursor: pointer;
+}
+
+.buttonSize{
+    padding:5px;
+    margin:10px;
+    width:20px;
 }

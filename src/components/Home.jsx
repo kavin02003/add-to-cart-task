@@ -1,16 +1,24 @@
-import React, { useState } from 'react'
-import data from '../products.json'
+import React, {useContext } from 'react'
+// import data from '../products.json'
 import Product from './Product'
 import './Home.css'
+import { cartContext } from '../App'
+
 
 const Home = () => {
-    const [products] = useState(data)
+    // const [products] = useState(data)
+
+    const {users} = useContext(cartContext)
+
+      
+
+
   return (
     <div className='product-container'>
-      {products.map((product)=>(
-        <Product key={product.id} product={product}/>
+      {users.map((user)=>(
+        <Product key={user.id} user={user}/>
       ))}
-    </div>
+    </div> 
   )
 }
 

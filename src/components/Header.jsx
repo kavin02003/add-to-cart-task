@@ -10,10 +10,14 @@ const Header = () => {
     
   return (
     <div className='navbar'>
-      <div className="logo">Food cart</div>
+      <Link  className="logo" to={"/"} >Food Cart</Link>
+      {/* <div className="logo">Food Cart</div> */}
       <ul>
+      <li>
+            <Link className='link-line' to={"/addProducts"} >Add Products</Link>
+        </li>
         <li>
-            <Link to={"/"} >Home</Link>
+            <Link className='link-line' to={"/"} >Home</Link>
         </li>
         <li>
             <Link to={"/Cart"} ><span className='cart-count'>{cart.length}</span><FaShoppingCart /></Link>

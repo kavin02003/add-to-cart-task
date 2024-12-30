@@ -10,10 +10,12 @@
 .logo{
    color:#fff;
    font-size: 20px;
+   cursor: pointer;
+   text-decoration: none;
 }
 .navbar ul {
     display: inline-flex;
-    gap: 10px;
+    gap: 40px;
 }
 .navbar ul li{
     list-style-type:none;
@@ -32,4 +34,10 @@
     border-radius:50%;
     font-size: 12px;
     text-align: center;
+}
+.link-line{
+   padding-bottom:5px;
+}
+.link-line:hover{
+    border-bottom:2px solid white;
 }

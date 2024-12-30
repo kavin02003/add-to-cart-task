@@ -1,6 +1,6 @@
 .product{
     width:200px;
-    height:250px;
+    height:270px;
     border:1px solid #ccc;
 }
 
@@ -21,24 +21,26 @@
 
 .details h3{
     margin-bottom:10px;
-    font-size:14px;
+    font-size:20px;
 }
 
 .details p{
-    font-size:14px;
-    font-weight: 500;
+    font-size:15px;
+    font-weight:700;
     color:#888;
 }
 
 .details button{
-    margin-top:5px;
-    padding:5px 10px;
+    margin-top:15px;
+    padding:10px 20px;
     background-color:teal;
     color:#fff;
     border:none;
     border-radius:3px;
+    font-size:15px;
 }
 
 .details button:hover{
     background-color:rgb(2, 104, 104);
+    cursor: pointer;
 }
