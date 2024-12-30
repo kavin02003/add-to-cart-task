@@ -4,7 +4,7 @@
     "amt":"299",
     "shop":"Pizza Hut",
     "ftype":"Pizza",
-    "pic":"https://www.app.tutorjoes.in/img/food/89.jpg",
+    "pic":"",
     "latest":"No"
 },
 {
@@ -13,7 +13,7 @@
     "amt":"65",
     "shop":"Sri Saivihar",
     "ftype":"Veg",
-    "pic":"https://www.app.tutorjoes.in/img/food/124.jpg",
+    "pic":"",
     "latest":"No"
 },
 {
@@ -22,7 +22,7 @@
     "amt":"185",
     "shop":"LAKSHMI FOOD",
     "ftype":"Veg",
-    "pic":"https://www.app.tutorjoes.in/img/food/26.jpg",
+    "pic":"",
     "latest":"Yes"
 },
 {
@@ -31,7 +31,7 @@
     "amt":"220",
     "shop":"Salem RR Briyani",
     "ftype":"Non-Veg",
-    "pic":"https://www.app.tutorjoes.in/img/food/9.jpg",
+    "pic":"",
     "latest":"No"
 }
 ]

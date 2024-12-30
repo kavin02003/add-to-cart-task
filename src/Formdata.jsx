@@ -54,22 +54,6 @@ const Formdata = () => {
           
         }
         </ul>
-
-
-      {/* <h2>User List</h2>
-   <ul>
-     {users.map((user)=>
-        (
-          <li style={{listStyleType:'none'}} key={user.id}> */}
-          {/* <img src={user.avatar} alt={`${user.first_name} ${user.last_name}`} width="50" height="50" /> */}
-          {/* <p>{user.name}</p>
-          <p>Email:{user.price}</p>
-
-          </li>
-        )
-        
-     )}
-   </ul> */}
     </div>
   )
       
